@@ -75,7 +75,7 @@ body {
   display: grid;
   justify-content: center;
   align-content: center;
-  flex-grow: 1;
+  flex-grow: .25;
   grid-template-columns: repeat(5, 4em);
   grid-template-rows: repeat(6, 4em);
   gap: .25em;
@@ -243,4 +243,11 @@ body {
   padding: 10px;
   width: 100%;
   box-sizing: border-box;
+}
+
+/* Additional CSS for mobile devices */
+@media (max-width: 600px) {
+  body {
+    font-size: inherit !important;
+  }
 }
