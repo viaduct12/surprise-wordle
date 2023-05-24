@@ -15469,7 +15469,7 @@ function showModal(message, duration) {
 
 function checkWinLose(guess, tiles) {
   if (guess === targetWord) {
-    showModal("Coming Soon...", 25000);
+    showModal("Baby Fiesta Coming Soon...", 25000);
     danceTiles(tiles);
     stopInteraction();
     return;

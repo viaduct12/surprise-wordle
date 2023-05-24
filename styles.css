@@ -222,15 +222,15 @@ body {
 .modal-content {
   position: relative;
   background-color: white;
-  margin: 25% auto;
+  margin: 5% auto;
   padding: 20px;
   border: 1px solid #888;
-  width: 50%;
+  width: 75%;
   text-align: center;
 }
 
 .modal-content img {
-  width: 25vw; /* Adjust the width as needed */
+  width: 50vw; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
 }
 
