@@ -15462,9 +15462,9 @@ function showModal(message, duration) {
   modalMessage.textContent = message;
   modal.style.display = "block";
 
-  setTimeout(function() {
-    modal.style.display = "none";
-  }, duration);
+  // setTimeout(function() {
+  //   modal.style.display = "none";
+  // }, duration);
 }
 
 function checkWinLose(guess, tiles) {
